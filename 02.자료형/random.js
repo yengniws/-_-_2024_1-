@@ -6,6 +6,5 @@ let Max = 20,
 for (let i = 1; i < 31; ++i) {
     let a = Math.floor(Math.random() * (Max - Min + 1) + Min);
     console.log(a);
-    console.log(i.length);
 
 }
